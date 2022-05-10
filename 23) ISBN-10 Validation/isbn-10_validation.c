@@ -25,7 +25,7 @@ bool is_valid_ISBN_10 (const char *ISBN)
   }
   
   
-  if(res %11 == 0){
+  if(res %11 == 0 && res >0){
     return true;
   }
   

@@ -32,3 +32,9 @@ bool is_valid_ISBN_10 (const char *ISBN)
   
   return false;
 }
+
+int main(){
+  
+  return 0;
+}
+  
